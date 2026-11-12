@@ -32,7 +32,8 @@ The PC then stores the answer in its ARP table:
 
 ![ARP table](../screenshots/arp-table.png)
 
-The entry for 192.168.1.1 is marked "dynamic": it was learned, and it expires after a while. The entry for 224.0.0.22 is a built-in multicast address and is "static".
+The entry for 192.168.1.1 is marked "dynamic": it was learned, and it expires after a while. 
+The address 224.0.0.22 is the IPv4 multicast group used by IGMPv3 routers. Windows may display a static multicast mapping in the ARP table; this is not a normal ARP-learned unicast neighbor entry.
 
 ## Observations
 
