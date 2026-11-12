@@ -50,7 +50,7 @@ The capture shows the following exchange:
 - The destination IP address is 192.168.1.1.
 - The client uses TCP port 57210.
 - The destination port is 81.
-- The destination responds with TCP RST, ACK packets.
+- The destination responded with RST, ACK packets, indicating an active connection reset. This is consistent with a closed port or a firewall configured to reject the connection. The packet capture alone cannot distinguish between these causes.
 - The connection is refused rather than established.
 - The repeated SYN and RST, ACK exchanges confirm that the connection cannot be established.
 
