@@ -78,7 +78,7 @@ The capture shows the following exchange:
 
 Wireshark helped identify why the TCP connection failed.
 
-The destination responded with RST, ACK packets, indicating that the connection attempt was actively refused.
+The destination responded with RST, ACK packets, indicating an active connection reset. This is consistent with a closed port or a firewall configured to reject the connection. The packet capture alone cannot distinguish between these causes.
 
 This demonstrates how packet analysis can distinguish an actively rejected TCP connection from a connection timeout.
 
