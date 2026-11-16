@@ -1,5 +1,28 @@
 # Wireshark Troubleshooting Casebook
 
+> A hands-on network diagnostics casebook using packet captures and repeatable tests to investigate common TCP/IP services and connectivity issues.
+
+[![Wireshark](https://img.shields.io/badge/Analysis-Wireshark-1679A7?logo=wireshark&logoColor=white)](https://www.wireshark.org/)
+[![Protocols](https://img.shields.io/badge/Protocols-DHCP%20%7C%20DNS%20%7C%20ARP%20%7C%20ICMP%20%7C%20TCP-475569)](#case-studies)
+
+## Project at a glance
+
+Six case studies document the test, packet-level observations, interpretation, and troubleshooting conclusions for common network scenarios.
+
+## Contents
+
+- [Project objectives](#project-objectives)
+- [Case studies](#case-studies)
+- [Tools used](#tools-used)
+- [Skills demonstrated](#skills-demonstrated)
+- [Repository structure](#repository-structure)
+
+## Packet-analysis example
+
+![DNS packet capture in Wireshark](screenshots/dns-packets.png)
+
+---
+
 A practical network troubleshooting portfolio built with Wireshark. This project documents real network tests, packet captures, protocol analysis, and troubleshooting procedures.
 
 ## Project Objectives
