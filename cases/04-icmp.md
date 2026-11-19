@@ -19,6 +19,14 @@ Command executed:
 ping 192.168.1.1
 ```
 
+## Useful display filters
+
+```wireshark
+icmp && ip.addr == 192.168.1.1
+```
+
+This limits the view to ICMP traffic involving the default gateway used in the test.
+
 ## Capture
 
 ![ICMP Ping Capture](../screenshots/icmp-ping.png)
