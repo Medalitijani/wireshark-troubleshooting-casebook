@@ -80,3 +80,7 @@ wireshark-troubleshooting-casebook/
 ## Purpose
 
 This casebook is a hands-on learning project demonstrating practical networking knowledge and troubleshooting methodology for IT Support and Network Technician roles.
+
+## Author and project scope
+
+Prepared and documented by **Mohamed Ali Tijani** as an individual practical-learning project. The case studies are based on packet captures and diagnostic tests from a Windows 11 PC and a home network; they are not customer incident reports.
