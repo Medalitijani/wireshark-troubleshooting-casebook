@@ -15,6 +15,14 @@ ping 192.168.1.1
 arp -a
 ```
 
+## Useful display filters
+
+```wireshark
+arp && (arp.src.proto_ipv4 == 192.168.1.103 || arp.dst.proto_ipv4 == 192.168.1.103)
+```
+
+This shows ARP packets where the PC's IPv4 address is the sender or target protocol address.
+
 ## Capture
 
 ![ARP packets](../screenshots/arp-packets.png)
