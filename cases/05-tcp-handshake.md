@@ -20,6 +20,20 @@ Command executed:
 curl https://example.com
 ```
 
+## Useful display filters
+
+```wireshark
+tcp.stream == 29
+```
+
+To find initial connection attempts in another capture, use:
+
+```wireshark
+tcp.flags.syn == 1 && tcp.flags.ack == 0
+```
+
+The stream number is specific to this saved capture; it can differ in another capture.
+
 ## Capture
 
 ![TCP Three-Way Handshake](../screenshots/tcp-handshake.png)
