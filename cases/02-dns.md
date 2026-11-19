@@ -18,6 +18,14 @@ nslookup thisnamedoesnotexist12345.com
 
 ![nslookup output](../screenshots/nslookup-output.png)
 
+## Useful display filters
+
+```wireshark
+dns.qry.name == "example.com" || dns.qry.name == "thisnamedoesnotexist12345.com"
+```
+
+This isolates the two DNS names used in this investigation.
+
 ## Capture
 
 ![DNS packets](../screenshots/dns-packets.png)
